@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "PL_FMD_LDZ_COPY_FROM_ADLS_01_faltu"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9cbb36ab-6413-ad84-4f41-51f19d40285b"
+  }
+}
