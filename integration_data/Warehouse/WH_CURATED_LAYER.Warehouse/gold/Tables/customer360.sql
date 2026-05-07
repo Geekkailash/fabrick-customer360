@@ -1,0 +1,25 @@
+CREATE TABLE [gold].[customer360] (
+
+	[customer_id] bigint NULL, 
+	[name] varchar(8000) NULL, 
+	[gender] varchar(8000) NULL, 
+	[email] varchar(8000) NULL, 
+	[dob] date NULL, 
+	[location] varchar(8000) NULL, 
+	[order_id] bigint NULL, 
+	[order_date] date NULL, 
+	[amount] float NULL, 
+	[status] varchar(8000) NULL, 
+	[payment_id] varchar(8000) NULL, 
+	[payment_date] date NULL, 
+	[payment_method] varchar(8000) NULL, 
+	[payment_status] varchar(8000) NULL, 
+	[ticket_id] varchar(8000) NULL, 
+	[issue_type] varchar(8000) NULL, 
+	[ticket_date] date NULL, 
+	[resolution_status] varchar(8000) NULL, 
+	[session_id] varchar(8000) NULL, 
+	[page_viewed] varchar(8000) NULL, 
+	[session_time] date NULL, 
+	[device_type] varchar(8000) NULL
+);

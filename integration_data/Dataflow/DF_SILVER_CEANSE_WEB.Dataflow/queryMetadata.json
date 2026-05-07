@@ -1,0 +1,44 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "DF_SILVER_CEANSE_WEB",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "start_time": {
+      "queryId": "5f3b6075-5d68-4c43-80fe-0b8f11abb857",
+      "queryName": "start_time",
+      "loadEnabled": false
+    },
+    "end_time": {
+      "queryId": "552bd978-5f99-49d7-805a-2bb098953865",
+      "queryName": "end_time",
+      "loadEnabled": false
+    },
+    "web": {
+      "queryId": "c4b946c3-3b69-4887-84a2-1e653557dcec",
+      "queryName": "web"
+    },
+    "web_DataDestination": {
+      "queryId": "33b71bb1-600b-4f9b-bae9-0e44dd4e0d8f",
+      "queryName": "web_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"6706ba1a-208c-4594-b573-ff9e55ad004d\",\"DatasourceId\":\"948f6b5c-ac0a-4068-86c8-c78e02bfa7df\"}"
+    },
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"6706ba1a-208c-4594-b573-ff9e55ad004d\",\"DatasourceId\":\"7def56ec-6f6c-410e-9a30-414d6231a94b\"}"
+    }
+  ],
+  "parametric": true
+}

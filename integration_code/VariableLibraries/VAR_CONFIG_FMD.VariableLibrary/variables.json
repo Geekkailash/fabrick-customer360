@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/variableLibrary/definition/variables/1.0.0/schema.json",
+  "variables": [
+    {
+      "name": "fmd_fabric_db_connection",
+      "note": "",
+      "type": "String",
+      "value": "5q6eezjaqpaexbe4umwg7qqbyq-qiwjvmal7noelhz6ew3bbbzy5y.database.fabric.microsoft.com,1433"
+    },
+    {
+      "name": "fmd_fabric_db_name",
+      "note": "",
+      "type": "String",
+      "value": "SQL_INTEGRATION_FRAMEWORK-4b5ca25a-82e1-404e-97fb-d7d4d0195102"
+    },
+    {
+      "name": "fmd_config_database_guid",
+      "note": "",
+      "type": "String",
+      "value": "4b5ca25a-82e1-404e-97fb-d7d4d0195102"
+    },
+    {
+      "name": "fmd_config_workspace_guid",
+      "note": "",
+      "type": "String",
+      "value": "b09a2c82-fb0b-455c-9f3e-25b6108738ee"
+    },
+    {
+      "name": "fmd_config_wh_workspace_guid",
+      "note": "",
+      "type": "String",
+      "value": "2effab8c-7fe4-4bfd-b678-34e1fd29d8ab"
+    },
+    {
+      "name": "fmd_config_wh_database_guid",
+      "note": "",
+      "type": "String",
+      "value": "4a2ecce9-6539-4d54-91bf-38ab15bfdb35"
+    },
+    {
+      "name": "fmd_fabric_wh_name",
+      "note": "",
+      "type": "String",
+      "value": "WH_CURATED_LAYER"
+    }
+  ]
+}

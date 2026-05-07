@@ -1,0 +1,44 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "DF_SILVER_CLEANSE_PAYMENTS",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "start_time": {
+      "queryId": "80e932e1-615d-44b9-b2b9-c60316dbf8cf",
+      "queryName": "start_time",
+      "loadEnabled": false
+    },
+    "end_time": {
+      "queryId": "31313cb3-b0bc-40b1-85bc-eb704555cf17",
+      "queryName": "end_time",
+      "loadEnabled": false
+    },
+    "payments": {
+      "queryId": "2b027a47-a559-4df7-b7f3-18dbf2b09dd5",
+      "queryName": "payments"
+    },
+    "payments_DataDestination": {
+      "queryId": "5f20c751-a70d-4161-a13d-f12b98a08086",
+      "queryName": "payments_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"6706ba1a-208c-4594-b573-ff9e55ad004d\",\"DatasourceId\":\"948f6b5c-ac0a-4068-86c8-c78e02bfa7df\"}"
+    },
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"6706ba1a-208c-4594-b573-ff9e55ad004d\",\"DatasourceId\":\"7def56ec-6f6c-410e-9a30-414d6231a94b\"}"
+    }
+  ],
+  "parametric": true
+}

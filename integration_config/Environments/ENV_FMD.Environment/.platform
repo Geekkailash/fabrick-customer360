@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Environment",
+    "displayName": "ENV_FMD"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ac0a1fba-4cd8-9a72-47ff-44f8574541c6"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "DF_GOLD_CUSTOMER360"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f1c49c0f-6ec6-b5c9-47c6-f2bc4fce1b03"
+  }
+}
