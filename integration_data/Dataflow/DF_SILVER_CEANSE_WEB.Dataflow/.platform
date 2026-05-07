@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "DF_SILVER_CEANSE_WEB"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "01e6df68-1c6a-827a-4143-2e270a16f1fb"
+  }
+}

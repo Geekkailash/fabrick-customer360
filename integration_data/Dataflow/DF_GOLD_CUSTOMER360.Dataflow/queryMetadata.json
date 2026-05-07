@@ -1,0 +1,52 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "DF_GOLD_CUSTOMER360",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "silver customer": {
+      "queryId": "810be777-7f1f-46e8-adc4-16bd11366bba",
+      "queryName": "silver customer"
+    },
+    "silver orders": {
+      "queryId": "1d85c744-7613-4652-b1b8-5d5c8e580c86",
+      "queryName": "silver orders"
+    },
+    "silver payments": {
+      "queryId": "0e5322a4-cf31-4862-b18f-f047c914dbe9",
+      "queryName": "silver payments"
+    },
+    "silver support": {
+      "queryId": "7b8a3070-e1b2-4ae3-adc9-8c8bbbbbcf48",
+      "queryName": "silver support"
+    },
+    "silver web": {
+      "queryId": "a422c00d-7dba-4a84-b98d-31a71647e455",
+      "queryName": "silver web"
+    },
+    "Merge": {
+      "queryId": "7efe3b84-e272-44dd-ae55-cb15e32eebc6",
+      "queryName": "Merge"
+    },
+    "Merge (2)": {
+      "queryId": "8d48a5d1-c3fe-4af3-8663-65e8c0b4ccc9",
+      "queryName": "Merge (2)"
+    },
+    "Merge (2)_DataDestination": {
+      "queryId": "265de5ec-3349-4ec1-9883-91b12e6669e9",
+      "queryName": "Merge (2)_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"6706ba1a-208c-4594-b573-ff9e55ad004d\",\"DatasourceId\":\"7def56ec-6f6c-410e-9a30-414d6231a94b\"}"
+    }
+  ]
+}
